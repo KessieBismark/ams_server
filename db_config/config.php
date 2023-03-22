@@ -1,9 +1,13 @@
 <?php
+// $server = 'localhost';
+// $username = 'royalfo5_shop';
+// $password = '2dL^7.j~#.2Y';
+// $database = 'royalfo5_rf_ams';
 $server = 'localhost';
-$username = 'royalfo5_shop';
-$password = '2dL^7.j~#.2Y';
+$username = 'root';
+$password = '';
 $database = 'royalfo5_rf_ams';
-$conn = mysqli_connect($server,$username,$password,$database) or die("cannot connect to database".mysqli_error($conn));
+$conn = new mysqli($server,$username,$password,$database) or die("cannot connect to database".mysqli_error($conn));
  
 $failed =  json_encode("Sql statement failed");
 $true = json_encode("true");
