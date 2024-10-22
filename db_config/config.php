@@ -1,8 +1,5 @@
 <?php
-// $server = 'localhost';
-// $username = 'royalfo5_shop';
-// $password = '2dL^7.j~#.2Y';
-// $database = 'royalfo5_rf_ams';
+
 $server = 'localhost';
 $username = 'root';
 $password = '';
