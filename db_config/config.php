@@ -3,7 +3,7 @@
 $server = 'localhost';
 $username = 'root';
 $password = '';
-$database = 'royalfo5_rf_ams';
+$database = '';
 $conn = new mysqli($server,$username,$password,$database) or die("cannot connect to database".mysqli_error($conn));
  
 $failed =  json_encode("Sql statement failed");
